@@ -51,6 +51,13 @@ box-sizing: border-box;
 }
 
 /**---------------------------------------------------------------*/
+h1 {
+    font-family: "Sigmar", sans-serif;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left: 7px;;
+}
+
 .header-central { /* HEADER CENTRALE */
     width: 432px;
     background-color: yellow;
@@ -60,6 +67,38 @@ box-sizing: border-box;
     margin-top: 10px;
 }
 
+.add-friends {    /* DIV CONTENITORE ICONE AGGIUNGI AMICI E CERCA */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    gap: 30px;
+    margin-left: 7px;
+
+}
+/* ESTETICA ICONA DI CERCA E AGGIUNGI AMICI */
+.friends-icon { 
+    background-color: lightgray;
+    border-radius: 5cap;    
+}
+
+.primary-icon {  /* ICONA LENTE */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;      
+    justify-content: center;
+}
+
+.secondary-icon { /* ICONA AGGIUNGI AMICI */
+    width: 330px;
+    height: 30px;
+    display: flex;
+    align-items: center;     
+    justify-content: center;
+}
+
 /**---------------------------------------------------------------*/
  
 
@@ -67,7 +106,7 @@ box-sizing: border-box;
 
 footer { /* FOOTER */
     height: 80px;
-    background-color: black;
+    background-color: red;
     width: 512px;
     position: absolute;
     display: flex;
