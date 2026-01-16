@@ -45,10 +45,10 @@ box-sizing: border-box;
     width: 432px;
     background-color: yellow;
     flex-shrink: 0; 
-    border: 10px solid black;  /* prendere angolo sopra e arrotondarlo */
+    border: 10px solid yellow;  /* prendere angolo sopra e arrotondarlo */
+    border-top-left-radius: 20px;
+    margin-top: 10px;
 }
-
-
 
 /**---------------------------------------------------------------*/
  
