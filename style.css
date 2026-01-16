@@ -60,6 +60,7 @@ h1 {
 
 .header-central { /* HEADER CENTRALE */
     width: 432px;
+   /* height: px;*/
     background-color: yellow;
     flex-shrink: 0; 
     border: 10px solid yellow; 
@@ -68,7 +69,7 @@ h1 {
 }
 
 .add-friends {    /* DIV CONTENITORE ICONE AGGIUNGI AMICI E CERCA */
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -99,6 +100,33 @@ h1 {
     justify-content: center;
 }
 
+/* ----------*/
+
+.img-user { /* IMMAGINI UTENTI */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container-user {
+
+   
+}
+
+.user{
+
+   
+}
+
+
+
+
+
+
+
+
+
+
 /**---------------------------------------------------------------*/
  
 
@@ -108,7 +136,7 @@ footer { /* FOOTER */
     height: 80px;
     background-color: red;
     width: 512px;
-    position: absolute;
+    flex-shrink: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
