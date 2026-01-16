@@ -1,0 +1,60 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.wrapped { /* INVOLUCRO GENERALE */
+   
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+	position: relative;
+}
+
+/**---------------------------------------------------------------*/
+.central-wrapper { /* INVOLUCRO CENTRALE */
+     max-width: 512px;
+    background-color: blue;
+    display: flex;
+    overflow: hidden;
+}
+
+.img-server { /* IMMAGINI DEI SERVER */
+    width: 70px ;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.sidebar-server { /* BARRA LATERALE DEI SERVER */
+    width: 80px;
+    height: 823px;
+    flex-shrink: 0;
+    background-color:palevioletred
+
+}
+    
+
+
+/**---------------------------------------------------------------*/
+.header-central { /* HEADER CENTRALE */
+    width: 432px;
+    background-color: yellow;
+    flex-shrink: 0; 
+}
+
+
+
+/**---------------------------------------------------------------*/
+ 
+ main {
+        flex-grow: 1;
+        overflow-y: auto; 
+}
+    
+footer { /* FOOTER */
+    height: 80px;
+    background-color: red;
+     max-width: 512px;
+    
+}
