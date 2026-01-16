@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 .wrapped { /* INVOLUCRO GENERALE */
    
-    height: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 	position: relative;
@@ -21,17 +21,21 @@ box-sizing: border-box;
 }
 
 .img-server { /* IMMAGINI DEI SERVER */
-    width: 70px ;
-    height: 70px;
+    width: 50px ;
+    height: 50px;
     border-radius: 50%;
 }
 
-.sidebar-server { /* BARRA LATERALE DEI SERVER */
-    width: 80px;
+.sidebar-server { /* BARRA LATERALE */
+    width: 120px;
     height: 823px;
     flex-shrink: 0;
-    background-color:palevioletred
-
+    background-color:palevioletred;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    row-gap: 3px;  /* spazio tra le immagini */
 }
     
 
@@ -41,6 +45,7 @@ box-sizing: border-box;
     width: 432px;
     background-color: yellow;
     flex-shrink: 0; 
+    border: 10px solid black;  /* prendere angolo sopra e arrotondarlo */
 }
 
 
