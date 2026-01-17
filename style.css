@@ -18,7 +18,7 @@ box-sizing: border-box;
 /**---------------------------------------------------------------*/
 .central-wrapper { /* INVOLUCRO CENTRALE */
     max-width: 512px;
-    background-color: blue;
+    background: linear-gradient( #000000 0%,#1e1f22, #1e1f22 25%, #1e1f22 100%);
     display: flex;
     overflow: hidden;
 }
@@ -33,7 +33,7 @@ box-sizing: border-box;
     width: 80px;
     height: 823px;
     flex-shrink: 0;
-    background-color:palevioletred;
+    background-color:black;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -60,12 +60,13 @@ h1 {
 
 .header-central { /* HEADER CENTRALE */
     width: 432px;
-   /* height: px;*/
-    background-color: yellow;
+
+    background-color: #1e1f22;
     flex-shrink: 0; 
-    border: 10px solid yellow; 
+    border: 10px solid #1e1f22; 
     border-top-left-radius: 20px;
     margin-top: 10px;
+    color: rgb(252, 249, 252);
 }
 
 .add-friends {    /* DIV CONTENITORE ICONE AGGIUNGI AMICI E CERCA */
@@ -80,8 +81,9 @@ h1 {
 }
 /* ESTETICA ICONA DI CERCA E AGGIUNGI AMICI */
 .friends-icon { 
-    background-color: lightgray;
-    border-radius: 5cap;    
+    background-color: rgb(61, 56, 56);
+    border-radius: 5cap;   
+     
 }
 
 .primary-icon {  /* ICONA LENTE */
@@ -123,22 +125,25 @@ h1 {
   align-items: center;
   gap: 12px;
   padding: 12px;
+  font-family: "Sigmar", sans-serif;
    
 }
 
 .message {
 font-size: 15px;
-color: greenyellow;
+color: gray;
+font-family: "Sigmar", sans-serif;
 }
 
 .time {
     font-size: 12px;
-    color: greenyellow;
+    color: gray;
 }
 
 .user-text {
     flex: 1;
     padding-right: 13px;
+      color: gray;
 }
 
 .user-top {
@@ -151,7 +156,7 @@ color: greenyellow;
 
 footer { /* FOOTER */
     height: 80px;
-    background-color: red;
+    background-color:rgb(68, 66, 66);
     width: 512px;
     flex-shrink: 0;
     display: flex;
