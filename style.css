@@ -28,6 +28,11 @@ box-sizing: border-box;
     height: 60px;
     border-radius: 50%;
 }
+.img-server-primary {
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+}
 
 .sidebar-server { /* BARRA LATERALE */
     width: 80px;
@@ -200,15 +205,19 @@ footer { /* FOOTER */
 }
 
 .sidebar-server:first-child div:hover {  
-    .sidebar-icon {
+    .sidebar-icon {                           /*apparizione mini sidebar-server*/
     border-top: 6px solid white;
     border-bottom: 6px solid white;
     background-color: white;
 
     }
+    .img-server-primary,                       /**ingrandimento immagini server*/
+    .img-server {
+        width: 65px;
+        height: 65px;
+    }
 
 }
-
   
 /* STATO ONLINE UTENTE */
 .state {
@@ -222,5 +231,39 @@ footer { /* FOOTER */
    
 }
 
+/*SCROLLBAR
+.scrollbar {
+    overflow-y: scroll;
+    height: 60px;
+}
+*/
 
+/* NEW CHAT*/
+.new-chat {
+    color: white;
+    position: absolute;
+    left: 446px;
+    bottom: 120px;
+
+    font-size: 23px;
+
+     .bi-chat-fill {
+       border: 15px solid  royalblue;
+       background-color: royalblue;
+       border-radius: 50%;
+     }
+     .plus {
+       width: 18px;
+       height: 18px;
+       background:royalblue;
+       border-radius: 50%;
+       font-size: 17px;
+       position: absolute;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       left: 25px;
+       bottom: 1px;
+    }
+}
 
