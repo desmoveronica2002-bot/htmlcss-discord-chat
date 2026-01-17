@@ -39,16 +39,7 @@ box-sizing: border-box;
     flex-direction: column;
     padding: 25px;
     row-gap: 3px;  /* spazio tra le immagini */
-}
-
-.sidebar-server > div:hover{  /* EFFETTO HOVER SULLE IMMAGINI DEI SERVER */
-    border-left: 9px solid white;
-    border-radius: 10px;
-	color: white;
-    padding-left: 7px;
-    position: relative;
-    
-}
+} 
 
 /**---------------------------------------------------------------*/
 h1 {
@@ -180,5 +171,30 @@ footer { /* FOOTER */
 }
 
 /**---------------------------------------------------------------*/
+
+/* EXTRA */
+
+/* EFFETTO HOVER SULLE IMMAGINI DEI SERVER */
+.sidebar-server > div:hover{  
+    border-left: 9px solid white;
+    border-radius: 10px;
+	color: white;
+    padding-left: 7px;
+    position: relative; 
+    transform:
+}
+
+/* STATO ONLINE UTENTE */
+.state {
+   width: 23px;
+   height: 23px;
+   background-color: red;   
+   border: 6px solid #1e1f22;  
+   border-radius: 50%;  
+   position: absolute;
+   transform: translate(30px, 20px);
+   
+}
+
 
 
