@@ -231,12 +231,15 @@ footer { /* FOOTER */
    
 }
 
-/*SCROLLBAR
+/*SCROLLBAR*/
 .scrollbar {
     overflow-y: scroll;
-    height: 60px;
+    scrollbar-width: thin;
+    scrollbar-color: royalblue transparent;
+    height: 640px;
+    
 }
-*/
+
 
 /* NEW CHAT*/
 .new-chat {
@@ -255,7 +258,7 @@ footer { /* FOOTER */
      .plus {
        width: 18px;
        height: 18px;
-       background:royalblue;
+       background: royalblue;
        border-radius: 50%;
        font-size: 17px;
        position: absolute;
