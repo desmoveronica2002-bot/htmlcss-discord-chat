@@ -226,8 +226,8 @@ footer { /* FOOTER */
    background-color: red;   
    border: 6px solid #1e1f22;  
    border-radius: 50%;  
-   position: absolute;
-   transform: translate(30px, 20px);
+   position: relative;
+   transform: translate(-25px, 70%);
    
 }
 
@@ -246,8 +246,6 @@ footer { /* FOOTER */
     color: white;
     position: absolute;
     left: 446px;
-    bottom: 120px;
-
     font-size: 23px;
 
      .bi-chat-fill {
